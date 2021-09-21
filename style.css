@@ -512,18 +512,19 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 1;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
 
 .scrollToTop span {
   margin-top: 6px;
+  font-size: 14px;
 }
 
 .showScrollTop {
-  font-size: 14px;
-  opacity: 1;
+  /*font-size: 14px;
+  opacity: 1;*/
 }
 
 a[data-lightbox] {
