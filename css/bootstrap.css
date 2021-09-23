@@ -1424,8 +1424,8 @@ a:hover {
 
 a:focus {
   outline: thin dotted;
-  /*outline: 5px auto -webkit-focus-ring-color;*/
-  /*outline-offset: -2px;*/
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
 
 figure {
@@ -1441,6 +1441,7 @@ img {
 .img-responsive,
 .thumbnail a > img,
 .thumbnail > img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -2070,6 +2071,8 @@ pre code {
 .col-xs-9 {
   position: relative;
   min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .col-xs-1,
@@ -3687,15 +3690,16 @@ textarea.input-lg {
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-  /*outline: thin dotted;
+  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;*/
+  outline-offset: -2px;
 }
 
 .btn.focus,
 .btn:focus,
 .btn:hover {
   color: #333;
+  text-decoration: none;
 }
 
 .btn.active,
