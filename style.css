@@ -89,11 +89,6 @@ a:hover {
   right: 0;
 }
 
-/*.texture-paper::before {
-  background: url("img/texture-paper.png");
-  background-size: 280px 280px;
-}*/
-
 .b-parallax {
   background-attachment: fixed;
 }
@@ -336,10 +331,6 @@ a:hover {
   border: 0px;
 }
 
-.navbar-toggle:hover {
-  /*background: transparent !important;*/
-}
-
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
@@ -555,6 +546,11 @@ a[data-lightbox]:hover img {
   opacity: 0.6;
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
+}
+
+a[data-lightbox]:focus img {
+  opacity: 0.6;
+  border: solid black;
 }
 
 #lightbox-modal {
