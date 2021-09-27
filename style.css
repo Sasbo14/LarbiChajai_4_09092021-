@@ -445,10 +445,6 @@ nav .caret {
   background: rgba(0, 0, 0, 0.3);
 }
 
-button {
-  /*outline: none !important;*/
-}
-
 .btn-rd {
   border-radius: 40px;
 }
@@ -510,11 +506,6 @@ button {
 .scrollToTop span {
   margin-top: 6px;
   font-size: 14px;
-}
-
-.showScrollTop {
-  /*font-size: 14px;
-  opacity: 1;*/
 }
 
 a[data-lightbox] {
