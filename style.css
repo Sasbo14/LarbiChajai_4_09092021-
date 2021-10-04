@@ -567,7 +567,8 @@ a[data-lightbox]:focus img {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 5px;
+  /*bottom: 5px;*/
+  text-align: center;
 }
 
 .close-lightbox {
@@ -725,6 +726,8 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .portfolio-row {
